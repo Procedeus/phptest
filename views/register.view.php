@@ -5,5 +5,4 @@
         <h5><?= $view_bag['error'] ?></h5>
         <input type="submit" name="confirmar" value="Confirmar">
     </form>
-    <a href="./register.php">Registrar</a>
 </div>

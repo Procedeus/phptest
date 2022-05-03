@@ -1,6 +1,6 @@
 <?php
 
-function view(){
+function view($images = ''){
     global $view_bag;
     require("views/layout.view.php");
 }
@@ -11,7 +11,7 @@ function redirect($url){
 }
 
 function is_auth(){
-    return isset($_SESSION['username']);
+    return isset($_SESSION['id']);
 }
 
 function ensure_auth(){

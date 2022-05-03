@@ -1,5 +1,6 @@
 <?php 
 include('function.php');
-include('data/mysqldata.class.php');
+include('data/img.mysql.class.php');
+include('data/user.mysql.class.php');
 
 ?>
